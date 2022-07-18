@@ -1,0 +1,74 @@
+/* comentario en css */
+
+/* generamos estilos al h1 */
+
+/*
+h1{
+    color: tomato;
+}
+*/
+
+/* se puede generar estilos,
+desde el nombre de la equiqueta = 
+desde una class =
+un ID = 
+*/
+
+/* generamos estilos desde el nombre de la etiqueta */
+h2{
+    color: yellowgreen;
+}
+
+/* generamos estilos desde una class */
+
+.colorSecundario{
+    color: violet;
+}
+
+/* generamos estilos desde un ID */
+
+#colorSub{
+    color: green;
+}
+
+/* ej de presedencia */
+h4{
+    color: red;
+}
+.estiloSub{
+    color: salmon;
+}
+#subEstilos{
+    color: yellow;
+}
+
+/* forma de escritura de class o ID camelCase */
+
+/* vemos nuevas propiedades */
+
+body{
+    background-image: ;
+}
+
+header{
+    background-color: turquoise;
+}
+/* propiedades del elemento a */
+
+/* ruta de especificidad */
+
+header h1{
+    color: tomato;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;

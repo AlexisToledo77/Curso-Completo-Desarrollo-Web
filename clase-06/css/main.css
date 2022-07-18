@@ -1,0 +1,87 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* propiedades de la madre */
+
+.madre{
+    border: 1px solid black;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+/*  propiedades de los hijos */
+
+.divUno{
+    background-color: aqua;
+}
+.divDos{
+    background-color: rgb(97, 169, 35);
+}
+.divTres{
+    background-color: rgb(255, 35, 200);
+}
+.divCuatro{
+    background-color: rgb(238, 20, 20);
+}
+
+/* ejemplo 2 */
+
+.ejemplo{
+    background-color: brown;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.imagen-1{
+    justify-self: right;
+    align-self: end;
+}
+/* ejemplo dos, grid - template - areas */
+
+.contenedor-principal{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr ;
+
+    /* para alinear el contenido segun las areas de trabajo */
+
+    grid-template-areas:"header header header"
+                        "main section-uno section-dos"
+                        "footer footer footer";
+}
+
+header{
+    background-color: coral;
+    grid-area: header;
+    display: flex;
+}
+main{
+    background-color: cyan;
+    grid-area: main;
+}
+
+.section-uno{
+    background-color: greenyellow;
+    grid-area: section-uno;
+}
+.section-dos{
+    background-color: goldenrod;
+    grid-area: section-dos;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    grid-area: footer;
+}

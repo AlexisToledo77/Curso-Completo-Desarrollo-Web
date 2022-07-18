@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+    /* box-sizing: border-box  */
+    box-sizing: border-box;
+}
+
+/* padding: es el espacio interno entre el contenido y el borde interno de la caja (puede llamarse relleno tambien) */
+
+/* margin: seria el esapcio exerno de la caja (la etiqueta) con los demas elemntos dentro del mismo html */
+
+/* los valores de margin van como las agujas del reloj margin: 20px 50px 70px 100px; sino puedo nombrar cada una individualmente 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 30px; */
+
+.tarjeta{
+    background-color: blueviolet;
+    margin: 10px 20px 30px 50px;
+    border-radius: 100px;
+    padding: 30px;
+    overflow: hidden;
+    
+}
+
+.tarjeta__titulo--white{
+    text-align: center;
+    color: white;
+    padding: 30px;
+
+    /* border */
+    border: 4px dotted yellow;
+}
+
+.tarjeta__parrafo--yellow{
+    color: yellow;
+}
+
+/* ejemplo de overflow */
+
+.padre{
+    margin: 20px;
+    background-color: tomato;
+    width: 150px;
+    height: 100px;
+    overflow: auto;
+}
+
+/* estilos menu */
+
+.menu{
+    background-color: black; 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.menu ul li{
+    list-style: none;
+    background-color: tomato;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.menu ul .none{
+    display: none;
+}
+
+/* ejemplo position relative  // top: ; left: ; bottom: ; right: ;*/
+
+.item-relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+/* ejemplo absolute */
+
+.item-absolute{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+/* position sticky */
+
+
+   
+]

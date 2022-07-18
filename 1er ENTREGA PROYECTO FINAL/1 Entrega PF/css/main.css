@@ -1,0 +1,195 @@
+/* reset */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+
+/* estilo menu */
+.menu{
+    padding-right: 10px;
+    text-align: center;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    top: 0px;
+    z-index: 2;
+    border-top: 4px solid tomato;
+    border-bottom: 4px solid tomato;
+    
+}
+
+/* estilos botones */
+.menu ul li{
+    list-style: none;
+    background-color: tomato;
+    display: inline-block;
+    margin-top: 29px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: end;
+    
+}
+
+/* estilos logo */
+.logo{
+    position: absolute;
+    top: 4px;
+    z-index: 3;
+    height: 100px;
+}
+
+/* estilos boton redes */
+.redes{
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    z-index: 3;
+}
+
+.ig{
+    height: 20px;
+}
+
+.fb{
+    height: 20px;
+}
+
+/* color de fondo home */
+.home{
+    background-color:tomato;
+    padding: 2px;
+}
+
+/* edicion fotos menu principal */
+.foto1{
+    position: relative;
+    top: 1px;
+}
+.foto2{
+    position: absolute;
+    left: 571px;
+    top: 111px;
+}  
+.fotoChica2{
+    position: absolute;
+    left: 571px;
+    top: 850px;
+    width: 736px;
+}
+.fotoChica3{
+    position: absolute;
+    right: 2px;
+    top: 111px;
+    width: 590px;
+}
+.fotoChica4{
+    position: absolute;
+    right: 2px;
+    top: 558px;
+    width: 589px;
+}
+
+
+/* estilos texto nosotros home (Ruta especificidad) */
+.mainIndex p{
+    padding: 40px 20px 150px 20px;
+    background-color: tomato;
+    color: antiquewhite;
+    
+}
+
+
+
+/* estilos footer */
+.footer{
+    background-color: black;
+    text-align: center;
+    color: tomato;
+}
+.footer a{
+    color: aliceblue;
+}
+
+/* estilos HTML PRODUCTOS */
+
+.mainProductos{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+/* tipos de productos */
+
+.tituloProductos{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* nombre del producto */
+.mainProductos div h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+/* descripcion del producto */
+
+.mainProductos div h3{
+    margin-bottom: 20px;
+}
+
+.mainProductos div h4{
+    margin-bottom: 20px;
+}
+
+.mainProductos div p{
+    margin-bottom: 20px;
+}
+
+/* estilos HTML INFOMRACION TECNICA */
+
+.tituloInfoTecnica{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+/* titulos de productos informacion tecnica */
+
+.mainInfoTecnica h2{
+    margin: 20px;
+}
+
+/* descripcion de informacion tecnica */
+
+.mainInfoTecnica p{
+    margin-left: 20px; 
+}
+.divEspacioInfoTecnica{
+    margin: 550px;
+}
+
+/* estilos HTML NOSOTROS */
+
+.nosotros{
+    margin: 20px;
+    margin-bottom: 689px;
+}
+
+/* estilos HTML CONSULTA */
+
+.formularioConsulta{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 468px;
+    background-color: bisque;
+}
+
+
+
+

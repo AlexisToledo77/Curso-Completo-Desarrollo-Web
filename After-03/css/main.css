@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Latin', sans-serif;
+
+}
+
+/*  propiedades del header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 1rem;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
+    font-size: 1.2rem;
+}
+
+main{
+    margin: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.4fr 0.4fr 0.2fr;
+    grid-template-areas: "h1 h1 img img"
+                         "p p img img"
+                         "boton boton-2 img img";
+    justify-items: center;
+    align-content: center;
+}
+
+main h1{
+    grid-area: h1;
+    font-size: 3rem;
+}
+main img{
+    grid-area: img;
+    width: 50%;
+    justify-items: center;
+}
+
+main p{
+    grid-area: p;
+}
+
+main .boton{
+    grid-area: boton;
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+main .boton-2{
+    grid-area: boton-2
+}
+
+/*  estilos section */
+section{
+    margin: 3rem;
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+
+}
+
+section .card{
+    background-color: whitesmoke;
+    padding: 1.3rem;
+    width: 300px;
+
+}
+
+section .card h2{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+section .card p{
+    font-size: 0.8rem;
+}

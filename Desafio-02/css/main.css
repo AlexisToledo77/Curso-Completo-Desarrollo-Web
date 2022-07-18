@@ -1,0 +1,118 @@
+/* reset */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* estilo menu */
+.menu{
+    padding-right: 10px;
+    text-align: center;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    top: 0px;
+    z-index: 2;
+    border-top: 4px solid tomato;
+    border-bottom: 4px solid tomato;
+    
+}
+
+/* estilos botones */
+.menu ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    background-color: tomato;
+    display: inline-block;
+    margin-top: 29px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: end;
+    
+}
+
+/* estilos logo */
+.logo{
+    position: absolute;
+    top: 4px;
+    z-index: 3;
+    height: 100px;
+}
+
+/* estilos boton redes */
+.redes{
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    z-index: 3;
+}
+
+.ig{
+    height: 20px;
+}
+
+.fb{
+    height: 20px;
+}
+
+/* color de fondo home */
+.home{
+    background-color:tomato;
+    padding: 2px;
+}
+
+/* edicion fotos menu principal */
+.foto1{
+    position: relative;
+    top: 1px;
+}
+.foto2{
+    position: absolute;
+    left: 571px;
+    top: 111px;
+}  
+.fotoChica2{
+    position: absolute;
+    left: 571px;
+    top: 850px;
+    width: 736px;
+}
+.fotoChica3{
+    position: absolute;
+    right: 2px;
+    top: 111px;
+    width: 590px;
+}
+.fotoChica4{
+    position: absolute;
+    right: 2px;
+    top: 558px;
+    width: 589px;
+}
+
+
+/* estilos texto nosotros home (Ruta especificidad) */
+main p{
+    padding: 10px;
+    background-color: tomato;
+    color: antiquewhite;
+}
+
+/* estilos footer */
+.footer{
+    background-color: black;
+    text-align: center;
+    color: tomato;
+}
+.footer a{
+    color: aliceblue;
+}
+
+
+
+
+

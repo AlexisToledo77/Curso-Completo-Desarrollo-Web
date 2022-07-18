@@ -1,0 +1,64 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* propiedades del padre */
+
+.padre{
+    background-color: blue;
+    display: flex;
+    /* por defecto flex trabaja de manera horizontal */
+
+    /* me permite trabajar la orienteacion de los hijos 
+    flex-direction: row;
+
+    flex-wrap: wrap;*/
+    
+
+    flex-flow: column wrap;
+
+    justify-content: center;
+    align-content: center;
+    
+}
+
+/* propiedades de los hijos */
+.hijo{
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    margin: 10px;
+}
+
+/* propiedades de nosotros.html */
+
+header{
+    background-color: rgb(238, 146, 112);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* propiedades de la imagen */
+header div img{
+    width: 40%;
+}
+
+/* propiedades de ul */
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+/* propiedades de los li */
+
+header nav ul li{
+    list-style: none;
+    background-color: coral;
+    font-weight: bold;
+    display: inline-block;
+}
